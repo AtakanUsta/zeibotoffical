@@ -8,7 +8,7 @@ var mcIP = 'ZeiPixelCraft.aternos.me'; // Your MC server IP
 //var mcPort = 1234; // Your MC server port
 
 
-
+//deneme
 
 //server bilgileri function başlangıç
 
