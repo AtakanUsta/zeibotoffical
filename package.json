@@ -1,8 +1,8 @@
 {
-  "name": "node-example",
+  "name": "zeipixel",
   "version": "1.0.0",
-  "description": "This example is so cool.",
-  "main": "web.js",
+  "description": "zeipixel by mustafaeren.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
