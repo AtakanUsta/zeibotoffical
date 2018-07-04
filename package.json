@@ -1,0 +1,10 @@
+{
+"name": "ZeiPixel",
+"descrription": "ZeiPixel_Offlical_DiscordBot_byMustafaEren",
+"version": "0.0.0",
+"main": "index.js",
+"scripts": {
+    "starts": "index.js",
+},
+ 
+}
