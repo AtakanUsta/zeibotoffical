@@ -42,6 +42,10 @@ function istatistik() {
                 }else {
                     client.channels.get("463774807356604426").setName(`🔴Sunucu Offline🔴`); //on/offline
                 }
+				
+				if(body.offline) {
+				client.channels.get("463774807356604426").setName(`🔴Sunucu Offline🔴`); //on/offline
+				}
                 
             });
         
@@ -72,7 +76,7 @@ function istatistik2() {
                 
                 if(body.online) {
                     
-                    client.channels.get("463774807356604426").setName(`🔵Sunucu Online`); //on/offline
+                    client.channels.get("463774807356604426").setName(`🔵Sunucu Online 🔵`); //on/offline
                     
                     if(body.players.now) {
                         
@@ -81,9 +85,12 @@ function istatistik2() {
                         client.user.setActivity(`🔵Sunucu Online | Online Yok  `, { type: 'STREAMING',url:'http://twitch.tv/mustafaeren'});
                     }
                 }else {
-                    client.channels.get("463774807356604426").setName(`🔴Sunucu Offline`); //on/offline
+                    client.channels.get("463774807356604426").setName(`🔴Sunucu Offline🔴`); //on/offline
                 }
-                
+				
+                if(body.offline) {
+				client.channels.get("463774807356604426").setName(`🔴Sunucu Offline🔴`); //on/offline
+				}
             });
         
 
