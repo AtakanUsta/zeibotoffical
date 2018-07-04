@@ -5,7 +5,7 @@ client.login('NDY0MDU1ODk5MDc4NjU2MDAw.Dh5u_g.igFz0GT8bRGnxUD4aaMy6aW0seg');
 var request = require('request');
 var mcCommand = '/minecraft'; // Command for triggering
 var mcIP = 'ZeiPixelCraft.aternos.me'; // Your MC server IP
-//var mcPort = 1234; // Your MC server port
+//var mcPort = 1234; // Your MC server portsad
 
 
 
